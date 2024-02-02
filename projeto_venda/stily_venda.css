@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    /*ALINHADO O TEXTO NO CENTRO*/
+}
+
+h2{
+    margin: 0px; /*REMOVENDO A MARGEM DO H2*/
+}
+
+.item {
+    background: #111;
+    color: #fff;
+    padding: 30px;
+    /*MARGEM DO BLOCO EM RELAÇÃO A TELA*/
+    margin: 20px;
+    /*MARGEM ENTRE A SEPARAÇÃO DOS BLOCOS*/
+    border-radius: 4px;
+    /*AREDONDAMENTO DAS BORDAS*/
+
+}
+
+span {
+    color: #febe01;
+}
+
+p {
+    color: #b2b2b2;
+}
+
+a {
+    display: inline-block;
+    /*PARA O BLOCO NÃO INVADIR OUTRAS AREAS*/
+    background: #febe01;
+    color: #332200;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
